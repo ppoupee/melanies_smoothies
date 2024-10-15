@@ -50,4 +50,4 @@ if ingredient_list:
 # New session to display nutrition info
 import requests
 fruityvice_response=requests.get("https://fruityvice.com/api/fruit/watermelon")
-
+st.write(fruityvice_response)
